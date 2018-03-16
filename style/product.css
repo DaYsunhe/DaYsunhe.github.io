@@ -1,0 +1,217 @@
+@charset"utf-8";
+.menu-content .menu ul li #indexthree{
+	background: url(../img/n_libg.gif) no-repeat ;
+	color:black;
+}
+.top{
+	height: 232px;
+	width: 100%;
+}
+/*顶部*/
+.img{
+	height: 530px;
+	margin-top: 8px;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+
+/*关于我们*/
+.container{
+	width: 1170px;
+
+}
+.container .clear{
+	clear:both;
+}
+.container .conlf{
+	width: 234px;
+}
+.container .conlf .conlf-top{
+	height: auto;
+	width: 234px;
+	border: 2px solid #FEC81D;
+}
+.container .conlf .conlf-top .product{
+	margin-top: -2px;
+	margin-left: -2px;
+	width: 234px;
+	height: 50px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	background: url(../img/n_libg.gif);
+}
+.container .conlf .conlf-top dl {
+	padding: 15px;
+
+}
+.container .conlf .conlf-top dl dd{
+	width: 100%;
+	height: 32px;
+}
+.container .conlf .conlf-top dl dt{
+	width: 100%;
+	height: 32px;
+	padding-left: 17px;
+	background: url(../img/ico03.gif) no-repeat 5px 11px;
+	border-bottom: 1px solid #DDDCDC;
+}
+.container .conlf .conlf-top dl  a{
+	color: black;
+	font-size: 13px;
+	line-height: 32px;
+}
+.container .conlf .conlf-top dl dd{
+	background: url(../img/zx_bg.gif) repeat -10px 1px;
+	padding-left: 35px;
+}
+.container .conlf .conlf-top dl dd a{
+	font-size: 15px;
+}
+.container .conlf .conlf-top dl a:hover{
+	text-decoration: underline;
+}
+.container .conlf .conlf-btm{
+	margin-top: 15px;
+	height: 313px;
+	width: 234px;
+	border: 2px solid #FEC81D;
+}
+.container .conlf .conlf-btm .lianxi{
+	margin-top: -2px;
+	margin-left: -2px;
+	width: 234px;
+	height: 50px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	background: url(../img/n_libg.gif);
+}
+.container .conlf .conlf-btm .lxcon{
+	padding: 10px;
+}
+.container .conlf .conlf-btm .lxcon .lxcon-btm h5{
+	color: #E7A550;
+	margin: 10px 0 10px 30px;
+}
+.container .conlf .conlf-btm .lxcon .lxcon-btm p{
+	font-size: 12px;
+	font-weight: lighter;
+	color: #666666;
+	line-height: 26px;
+}
+.container .conri{
+	width: 895px;
+}
+.container .conri .weizhi{
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 15px;
+	line-height: 28px;
+	color: #666666;
+	font-size: 12px;
+	padding-left: 15px;
+}
+.container .conri .weizhi a{
+	color: #666666;
+}
+.container .conri .weizhi a:hover{
+	text-decoration: underline;
+}
+
+/*产品推荐*/
+
+.container .pdtop{
+	padding-left: 15px;
+	width: 100%;
+	border: 1px solid #CCCCCC;
+	padding:15px;
+	padding-top: 0px;
+
+}
+
+.container .pdtop dl{
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+.container .pdtop dl dt a{
+	display: block;
+	width: 200px;
+	height: 260px;
+	border: 3px solid #EDEDED;
+}
+.container .pdtop dl dt a:hover{
+	border-color: #E6A001;
+}
+.container .pdtop dl dt a img{
+	width: 100%;
+	height: 100%;
+}
+.container .pdtop dl dd a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	background: #333333;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.container .pdtop dl dd a:hover{
+	color: black;
+	background: url(../img/n_libg.gif);
+}
+.zixun{
+	margin-top: 15px;
+}
+.zixun .zixuntop{
+	padding-left: 20px;
+	background: url(../img/s_bg.gif);
+	line-height: 43px;
+}
+.zixun .zixuncon {
+	width: 100%;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+}
+.zixun .zixuncon ul{
+	width: 425px;
+}
+.zixun .zixuncon .split{
+	margin-right: 17px;
+
+}
+.zixun .zixuncon ul li{
+	line-height: 30px;
+	color: gray;
+	font-size: 12px;
+}
+.zixun .zixuncon ul li p span{
+	float: right;
+}
+.zixun .zixuncon ul li p a{
+	color: gray;
+}
+.zixun .zixuncon ul li p a:hover{
+	text-decoration: underline;
+}
+
+
+
+/*底部*/
+.tip{
+	position: fixed;
+	width: 20px;
+	height: 50px;
+	background: url(../img/top.gif);
+	right: 70px;
+	bottom: 77px;
+	display: none;
+	cursor:pointer;
+}

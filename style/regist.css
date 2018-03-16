@@ -1,0 +1,65 @@
+@charset"UTF-8";
+*{
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+body{
+	background: url(../img/login-bg.png) repeat-x;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.content{
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+	height: 580px;
+	padding-top: 50px;
+	overflow: hidden;
+
+}
+.content form dl{
+	margin-bottom: 20px;
+	height: 30px;
+}
+.content form dl dt,dd{
+	float: left;
+	line-height: 30px;
+}
+.content form dl dt{
+	width: 100px;
+	text-align: right;
+	font-size: 16px;
+}
+.content form dl dd{
+	width: 300px;
+	text-align: left;
+	height: 30px;
+}
+.content form dl dd input{
+	width: 250px;
+	height: 28px;
+	outline: none;
+}
+.content form .dress dd{
+	width: auto;
+	margin-left: 25px;
+}
+.content form .sex input,label{
+	height: 18px;
+	width: 38px;
+}
+.content form .sex label{
+	font-size: 18px;
+}
+.content form #bt{
+	height:  40px;
+	width: 80px;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	left: 260px;
+}
+

@@ -1,0 +1,267 @@
+@charset"utf-8";
+.menu-content .menu ul li #indextwo{
+	background: url(../img/n_libg.gif) no-repeat ;
+	color:black;
+}
+.img{
+	height: 530px;
+	margin-top: 8px;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+
+/*关于我们*/
+.container{
+	width: 1170px;
+
+}
+.container .clear{
+	clear:both;
+}
+.container .conlf{
+	width: 234px;
+}
+.container .conlf .conlf-top{
+	height: 237px;
+	width: 234px;
+	border: 2px solid #FEC81D;
+}
+.container .conlf .conlf-top .aboutme{
+	margin-top: -2px;
+	margin-left: -2px;
+	width: 234px;
+	height: 50px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	background: url(../img/n_libg.gif);
+}
+.container .conlf .conlf-top ul{
+	padding: 15px;
+}
+.container .conlf .conlf-top ul  li{
+	width: 100%;
+	height: 32px;
+	padding-left: 20px;
+	background: url(../img/ico03.gif) no-repeat 5px 8px;
+	border-bottom: 1px solid #DDDCDC;
+}
+.container .conlf .conlf-top ul li a{
+	color: black;
+	font-size: 13px;
+	line-height: 32px;
+}
+.container .conlf .conlf-top ul .aboutfirst{
+	background: url(../img/zx_bg.gif);
+	padding-left: 40px;
+}
+.container .conlf .conlf-top ul .aboutfirst a{
+	font-size: 15px;
+}
+.container .conlf .conlf-top ul li a:hover{
+	text-decoration: underline;
+}
+.container .conlf .conlf-btm{
+	margin-top: 15px;
+	height: 313px;
+	width: 234px;
+	border: 2px solid #FEC81D;
+}
+.container .conlf .conlf-btm .lianxi{
+	margin-top: -2px;
+	margin-left: -2px;
+	width: 234px;
+	height: 50px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	background: url(../img/n_libg.gif);
+}
+.container .conlf .conlf-btm .lxcon{
+	padding: 10px;
+}
+.container .conlf .conlf-btm .lxcon .lxcon-btm h5{
+	color: #E7A550;
+	margin: 10px 0 10px 30px;
+}
+.container .conlf .conlf-btm .lxcon .lxcon-btm p{
+	font-size: 12px;
+	font-weight: lighter;
+	color: #666666;
+	line-height: 26px;
+}
+.container .conri{
+	width: 895px;
+}
+.container .conri .weizhi{
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 15px;
+	line-height: 28px;
+	color: #666666;
+	font-size: 12px;
+	padding-left: 15px;
+}
+.container .conri .weizhi a{
+	color: #666666;
+}
+.container .conri .weizhi a:hover{
+	text-decoration: underline;
+}
+.container .conri .jianjie{
+	padding: 15px;
+	border: 1px solid #CCCCCC;
+}
+.container .conri .jianjie h1{
+	margin: 30px 0 10px 320px;
+	font-size: 30px;
+	color: #666666;
+	font-weight: lighter;
+}
+.container .conri .jianjie span{
+	margin-left: 365px;
+	font-size: 16px;
+	color: #666666;
+
+}
+.container .conri .jianjie .jjimg img{
+	width: 100%;
+	height: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.container .conri .jianjie p{
+	color: #666666;
+}
+
+/*产品推荐*/
+
+.container .pdtop{
+	margin-top: 15px;
+	padding-left: 15px;
+	line-height: 36px;
+	font-weight: bold;
+	height: 36px;
+	width: 100%;
+	background: url(../img/s_bg.gif);
+}
+.container .pdbtm{
+	padding: 23px 0 0 16px;
+	width: 100%;
+	border: 2px solid #CCCCCC;
+	border-top: none;
+	height: 350px;
+}
+.container .pdbtm dl{
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+}
+.container .pdbtm dl dt a{
+	display: block;
+	width: 200px;
+	height: 260px;
+	border: 3px solid #EDEDED;
+}
+.container .pdbtm dl dt a:hover{
+	border-color: #E6A001;
+}
+.container .pdbtm dl dt a img{
+	width: 100%;
+	height: 100%;
+}
+.container .pdbtm dl dd a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	background: #333333;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.container .pdbtm dl dd a:hover{
+	color: black;
+	background: url(../img/n_libg.gif);
+}
+
+
+
+
+
+/*底部*/
+footer{
+	height: 230px;
+	background: #1D1D1D;
+	margin-top: 20px;
+}
+.ftcon{
+	width: 1170px;
+	height: 230px;
+}
+.ftcon .ewm{
+	background: #FFCE2A;
+	width: 243px;
+	height: 230px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+.ftcon .ewm .ewmimg{
+	width: 117px;
+	height: 117px;
+	margin: 15px 0px 0px 56px;
+}
+.ftcon .ewm .ewmimg img{
+	width: 100%;
+	height: 100%;
+
+}
+.daohang{
+	width: 900px;
+	height: 230px;
+	margin-left: 10px;
+}
+.daohang ul{
+	height: 77px;
+}
+.daohang ul li{
+	float: left;
+	margin-left: 15px;
+	line-height: 77px;
+}
+.daohang ul li a{
+	color: #5D5D5D;
+}
+.daohang ul li a:hover{
+	text-decoration: underline;
+}
+.adress{
+	height: 41px;
+	width: 890px;
+	border: 1px solid #5D5D5D;
+	line-height: 41px;
+	color: #5D5D5D;
+	padding-left: 15px;
+	font-size: 12px;
+	font-weight: lighter;
+}
+.banquan{
+	margin-top: 36px;
+	color: #5D5D5D;
+}
+.tip{
+	position: fixed;
+	width: 20px;
+	height: 50px;
+	background: url(../img/top.gif);
+	right: 70px;
+	bottom: 77px;
+	display: none;
+	cursor:pointer;
+}

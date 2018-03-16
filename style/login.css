@@ -1,0 +1,68 @@
+@charset"UTF-8";
+*{
+	box-sizing:border-box;
+}
+body{
+	padding-top: 80px;
+	height: 100%;
+	
+	background: url(../img/login-bg.png) repeat-x;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.login{
+	width: 370px;
+	height: 426px;
+	margin:0 auto;
+	padding: 30px;
+	background: white;
+}
+.login h2{
+	margin-bottom: 30px;
+}
+.login h2{
+	color: #FF9500;
+}
+.login form input{
+	margin-bottom: 20px;
+	outline: none;
+	width: 310px;
+	height: 40px;
+	font-size: 20px;
+	padding:0px 10px 0px 10px;
+}
+.login form  input{
+	margin-right: 12px;
+
+}
+.login form .yanzheng input{
+	width: 145px;
+	height: 40px;
+	float: left;
+}
+.login form .yanzheng span{
+	background-color: #E9F1F5;
+	text-align: center;
+	line-height: 40px;
+	color: #6D9CD3;
+	width: 145px;
+	height: 40px;
+	float: right;
+	display: inline-block;
+}
+.login form #btn{
+	height: 40px;
+	font-size: 20px;
+	width: 100%;
+	background-color:#FF9500;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	border: none;
+}
+.login .regist{
+	margin-top: 30px;
+	font-size: 20px;
+	color: #303031;
+	text-align: center;
+}

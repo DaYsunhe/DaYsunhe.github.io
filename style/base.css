@@ -1,0 +1,26 @@
+﻿@charset"UTF-8";
+*{
+	padding: 0px;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 微软雅黑;
+}
+a{
+	text-decoration: none;
+	targe:blank;
+}
+ul li{
+	list-style: none;
+}
+.ri{
+	float: right;
+}
+.lf{
+	float:left;
+}
+.md{
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}

@@ -1,0 +1,136 @@
+@charset"UTF-8";
+header{
+	height: 31px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #C1C1C1;
+	overflow: hidden;
+}
+.header{
+	height: 31px;
+	width: 1170px;
+}
+.header .lf{
+	color: gray;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.header .ri{
+	width: 175px;
+	height: 31px;
+	background: url(../img/t_icobg.gif) no-repeat;
+	padding: 0 25px;
+	line-height: 31px;
+}
+.header .ri #login-con{
+	width: 100%;
+	height: 100%;
+	background: gray;
+	position: absolute;
+	/*left: 0px;*/
+	z-index: 1000;
+	/*display: none;*/
+}
+.header .ri a{
+	color:red;
+}
+/*logo*/
+.content-logo{
+	width: 100%;
+	height: 108px;
+}
+.content-logo .logo{
+	width: 1170px;
+	height: 108px;
+}
+.content-logo .logo .logo-lf .sever{
+	margin: 10px 0 0 15px;
+	background: url(../img/h_bt.gif) no-repeat;
+	height: 98px;
+	padding: 5px 0 5px 30px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.content-logo .logo .logo-lf .sever span{
+	font-size: 15px;
+	display: block;
+}
+.content-logo .logo .logo-ri{
+	height: 80px;
+	padding-left: 45px;
+	margin-top: 28px;
+	font-size: 12px;
+	background: url(../img/h_pho.gif) no-repeat;
+}
+.content-logo .logo .logo-ri span{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.container{
+	width: 1160px;
+	margin: 0 auto;
+}
+/*尾部*/
+footer{
+	height: 230px;
+	background: #1D1D1D;
+	margin-top: 20px;
+}
+.ftcon{
+	width: 1170px;
+	height: 230px;
+}
+.ftcon .ewm{
+	background: #FFCE2A;
+	width: 243px;
+	height: 230px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+.ftcon .ewm .ewmimg{
+	width: 117px;
+	height: 117px;
+	margin: 15px 0px 0px 56px;
+}
+.ftcon .ewm .ewmimg img{
+	width: 100%;
+	height: 100%;
+
+}
+.daohang{
+	width: 900px;
+	height: 230px;
+	margin-left: 10px;
+}
+.daohang ul{
+	height: 77px;
+}
+.daohang ul li{
+	float: left;
+	margin-left: 15px;
+	line-height: 77px;
+}
+.daohang ul li a{
+	color: #5D5D5D;
+}
+.daohang ul li a:hover{
+	text-decoration: underline;
+}
+.adress{
+	height: 41px;
+	width: 890px;
+	border: 1px solid #5D5D5D;
+	line-height: 41px;
+	color: #5D5D5D;
+	padding-left: 15px;
+	font-size: 12px;
+	font-weight: lighter;
+}
+.banquan{
+	margin-top: 36px;
+	color: #5D5D5D;
+}
